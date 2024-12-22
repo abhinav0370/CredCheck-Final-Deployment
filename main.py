@@ -131,8 +131,8 @@ footer {visibility: hidden;}
 }
 
 .content .input-methods button {
-    margin: 15px;
-    padding: 20px 30px;
+    margin: 3px;
+    padding: 2px 3px;
     font-size: 18px;
     border: none;
     border-radius: 25px;
@@ -196,7 +196,7 @@ except FileNotFoundError:
 st.markdown('<div id="news-check"></div>', unsafe_allow_html=True)
 
 with st.container():
-    st.markdown("<h2 style='text-align: center; color:#333333;'>📰 News Check</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='color:#333333;'>📰 News Check</h2>", unsafe_allow_html=True)
     
     # Text Input for News Headline
     headline = st.text_input("📝 Enter the news headline:", key="headline_input")
