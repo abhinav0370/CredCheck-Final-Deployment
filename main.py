@@ -88,6 +88,7 @@ footer {visibility: hidden;}
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 7%;
 }
 
 .header .title {
