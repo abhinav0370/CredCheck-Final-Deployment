@@ -182,7 +182,7 @@ st.markdown(header, unsafe_allow_html=True)
 st.markdown('<div class="hero"></div>', unsafe_allow_html=True)
 
 # Load and display the image
-image_path = os.path.join("images", "img1.jpg")  # Ensure the path is correct
+image_path = os.path.join("images", "img1.png")  # Ensure the path is correct
 try:
     hero_image = Image.open(image_path)
     st.image(hero_image, use_container_width=True)  # Updated parameter
