@@ -10,7 +10,6 @@ from claimbuster_check import check_claim
 from top_headlines import fetch_headlines
 from img_to_text import extract_text_from_image
 from video_to_audio import extract_audio
-import plotly.graph_objs as go
 from PIL import Image
 
 # ---------------------------
