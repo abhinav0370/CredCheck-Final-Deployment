@@ -37,7 +37,7 @@ def classify_auth(is_fake):
 # 1. Page Configuration
 # ---------------------------
 st.set_page_config(
-    page_title="🔍 Fake News Detector",
+    page_title="🔍 CredCheck",
     page_icon="📰",
     layout="wide",
     initial_sidebar_state="collapsed",
